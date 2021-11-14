@@ -11,7 +11,7 @@ class Data(models.Model):
     password = models.CharField(max_length=55, db_index=True, verbose_name="Пароль")
 
     class Meta:
-        ordering = ('name',)
+        ordering = ('login',)
 
     def __str__(self):
         return f"{self.login} - {self.password}"
