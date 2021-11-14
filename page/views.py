@@ -12,6 +12,7 @@ def main(request):
             existing_login = Data.objects.filter(login=datas).count()   
             if existing_login == 0:
                 form.save()
+                return redirect('result')
             else:
                 form = PageForm()
     return render(request, 'main.html', locals())
