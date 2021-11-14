@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-zpv+_m+u8upn8p@9x%we7d^-4pyq6w)3&sc$eov1qsp9^sl_s#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', 'fishpage.herokuapp.com/']
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', 'fishpage.herokuapp.com']
 
 
 # Application definition
